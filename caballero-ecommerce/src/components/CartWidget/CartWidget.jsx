@@ -1,6 +1,6 @@
 export const CartWidget = () => {
     return (
-            <div>
+            <div id="carrito">
                 3 🛒
             </div>
         )
