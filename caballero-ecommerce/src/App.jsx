@@ -6,6 +6,9 @@ import ProductListContainer from './components/CartWidget/ItemListContainer/Item
 import './App.css'
 import Matera from './components/CartWidget/Matera/Matera'
 import Llavero from './components/CartWidget/Llaveros/Llavero'
+import ItemDetail from './components/CartWidget/ItemDetail/ItemDetail'
+import ItemDetailLlavero from './components/CartWidget/ItemDetailLlavero/ItemDetailLlavero'
+
 
 
 function App() {
@@ -18,6 +21,8 @@ function App() {
         <Route path='/' element={<ProductListContainer greeting='saludo desde app, bienvenidos' />} />
         <Route path='/materas' element={<Matera />}/>
         <Route path='/llaveros' element={<Llavero/>}/>
+        <Route path='/detalle' element={<ItemDetail />}/>
+        <Route path='/detallellav' element={<ItemDetailLlavero />}/>
       </Routes>
     </BrowserRouter>
   )

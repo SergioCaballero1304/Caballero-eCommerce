@@ -1,6 +1,9 @@
 import Card from 'react-bootstrap/Card';
 import CardGroup from 'react-bootstrap/CardGroup';
-import { ItemCounter } from '../ItemCounter/ItemCounter';
+
+import { Detalle } from '../Detalle/Detalle';
+import { DetalleLlav } from '../DetalleLlav/DetalleLlav';
+
 
 function ItemListContainer() {
     return (
@@ -13,7 +16,7 @@ function ItemListContainer() {
                         $1.000
                     </Card.Text>
                     <Card.Footer>
-                        <ItemCounter />    
+                           <DetalleLlav/>
                     </Card.Footer>    
                 </Card.Body>
             </Card>
@@ -25,7 +28,7 @@ function ItemListContainer() {
                         $3.000
                     </Card.Text>
                     <Card.Footer>
-                        <ItemCounter />    
+                        <Detalle />
                     </Card.Footer>
                 </Card.Body>
             </Card>

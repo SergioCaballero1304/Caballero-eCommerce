@@ -21,7 +21,7 @@ export const ItemCounter = ({ initial = 1, stock = 5, onAdd }) => {
     }
 
     return (
-        <div className="text-center">
+        <div id="detalle">
             <div>
                 <p>{count}</p>
             </div>

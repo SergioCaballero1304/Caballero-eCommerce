@@ -59,6 +59,13 @@ li {
   width: 300px;
 }
 
+#detalle {
+  display: inline-block;
+  text-align: right;
+  margin-left: 50px;
+}
+
+
 
 button {
   border-radius: 8px;
